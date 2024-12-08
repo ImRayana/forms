@@ -34,7 +34,7 @@ body {
     position: relative;
 }
 
-.items-center + .mt-2::before {
+.items-center + div + div::before {
     position: absolute;
     content: "";
     background-image: url(visibility_off.svg);
@@ -44,6 +44,8 @@ body {
     right: 5px;
 
 }
+
+.
 
 button {
     cursor: pointer;
